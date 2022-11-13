@@ -11,7 +11,10 @@ Il progetto si basa su Arduino Uno ed è completamente open-source
 - Tanta Pazienza
 # IR Dumping
 l'Ir Dump ci occorre per sapere i nostri codici hex del telecomando necessari per i controlli della stricia
-Collegare il sensore ir con 5V, GND e Dati (PWM11) con 3 cavetti maschio-femmina (la disposizione dei pin potrebbe variare da sensore a sensore, consiglio di fare delle ricerche sullo schema del sensore) Comunemente è Dati|5V|GND 
+
+Collegare il sensore ir con 5V, GND e Dati (PWM11) con 3 cavetti maschio-femmina (la disposizione dei pin potrebbe variare da sensore a sensore, consiglio di fare delle ricerche sullo schema del sensore) Comunemente è Dati|5V|GND
+
 Occorrerà utilizzare lo script IR Dumper.ino. Dopo averlo caricato occorrerà aprire il monitor seriale di arduino, premere 4 pulsanti a vosta scelta, compariranno dei codici in hex (alfanumerici) per esempio i miei sono `20DF8877`, `20DF48B7`, `20DFC837` e `20DF10EF`.
+
 Attenzione! Potrebbe capitare che arduino legga `FFFFFFFF`, semplicemente è da ignorare
 # Il Codice
