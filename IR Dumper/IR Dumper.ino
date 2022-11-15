@@ -1,17 +1,18 @@
 #include <IRremote.hpp>
 
-IRrecv irrecv(11);
-decode_results res;
+#define IR_RECEIVE_PIN 6
 
 void setup() {
-   Serial.begin(9600);
-   irrecv.enableIRIn();
+  Serial.begin(9600);
+  IrReceiver.begin(IR_RECEIVE_PIN);
 }
 
 void loop() {
-   if (irrecv.decode (&res)){
-     Serial.println(res. value, HEX);
-     irrecv.resume();
-  delay(100);
-   }
+  if (IrReceiver.decode()) {
+   IrReceiver.printIRResultShort(&Serial);
+   IrReceiver.resume();
+  }
 }
+ 
+
+  
