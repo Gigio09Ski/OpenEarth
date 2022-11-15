@@ -14,9 +14,7 @@ l'Ir Dump ci occorre per sapere i nostri codici hex del telecomando necessari pe
 
 Collegare il sensore ir con 5V, GND e Dati (PWM6) con 3 cavetti maschio-femmina (la disposizione dei pin potrebbe variare da sensore a sensore, consiglio di fare delle ricerche sullo schema del sensore)
 
-Occorrerà utilizzare lo script IR Dumper.ino assieme alla libreria `IRremote`. Dopo averlo caricato occorrerà aprire il monitor seriale di arduino, premere 4 pulsanti a vosta scelta, compariranno dei codici in hex (alfanumerici) per esempio i miei sono `0xEE11FB04` `0xED12FB04` `0xEC13FB04` `0xF708FB04`
-
-I Codici si trovano dopo `Raw-Data=`
+Occorrerà utilizzare lo script IR Dumper.ino assieme alla libreria `IRremote`. Dopo averlo caricato occorrerà aprire il monitor seriale di arduino, premere 4 pulsanti a vosta scelta, compariranno dei codici in hex (I Codici si trovano dopo `Raw-Data=`) per esempio i miei sono `0xEE11FB04` `0xED12FB04` `0xEC13FB04` `0xF708FB04`
 
 Attenzione! Potrebbe capitare che arduino legga `0x0`, semplicemente è da ignorare
 # Il Codice
