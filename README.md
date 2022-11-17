@@ -1,5 +1,5 @@
 # OpenEarth
-La parte di codice e di documentazione di un modello tredimensionale della terra fai-da-te creato per un modello di scuola da @Gigio09ski.
+La parte di codice e di documentazione di un modello tredimensionale della terra fai-da-te creato per un progetto di scuola da @Gigio09ski.
 Il progetto si basa su Arduino Uno ed è completamente open-source
 # Hardware
 - Arduino Uno / Mini / Mega
