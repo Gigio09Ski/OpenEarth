@@ -26,6 +26,36 @@ void loop () {
   if (IrReceiver.decode()) {
     if (IrReceiver.decodedIRData.decodedRawData == P1) {
     leds [0] = CRGB (255, 30, 0);
+    leds [1] = CRGB (255, 30, 0);
+    leds [2] = CRGB (255, 30, 0);
+    leds [3] = CRGB (255, 30, 0);
+    leds [4] = CRGB (255, 30, 0);
+    leds [5] = CRGB (255, 30, 0);
+    leds [6] = CRGB (255, 30, 0);
+    leds [7] = CRGB (255, 30, 0);
+    leds [8] = CRGB (255, 30, 0);
+    leds [9] = CRGB (255, 30, 0);
+    leds [10] = CRGB (255, 30, 0);
+    leds [11] = CRGB (255, 30, 0);
+    leds [12] = CRGB (255, 30, 0);
+    leds [13] = CRGB (255, 30, 0);
+    leds [14] = CRGB (255, 30, 0);
+    leds [15] = CRGB (255, 30, 0);
+    leds [16] = CRGB (255, 30, 0);
+    leds [17] = CRGB (255, 30, 0);
+    leds [18] = CRGB (255, 30, 0);
+    leds [19] = CRGB (255, 30, 0);
+    leds [20] = CRGB (255, 30, 0);
+    leds [21] = CRGB (255, 30, 0);
+    leds [22] = CRGB (255, 30, 0);
+    leds [23] = CRGB (255, 30, 0);
+    leds [24] = CRGB (255, 30, 0);
+    leds [25] = CRGB (255, 30, 0);
+    leds [26] = CRGB (255, 30, 0);
+    leds [27] = CRGB (255, 30, 0);
+    leds [28] = CRGB (255, 30, 0);
+    leds [29] = CRGB (255, 30, 0);
+    leds [30] = CRGB (255, 30, 0);
     FastLED.show ();
     delay (500);
     }
