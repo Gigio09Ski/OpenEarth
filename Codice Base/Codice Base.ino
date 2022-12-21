@@ -6,7 +6,7 @@
 #define COLOR_ORDER GRB
 #define CHIPSET WS2812
 #define VOLTS 5
-#define MAX_AMPS 500
+#define MAX_AMPS 1000
 #define IR_RECEIVE_PIN 6
 #define P1 0xEE11FB04
 #define P2 0xED12FB04
